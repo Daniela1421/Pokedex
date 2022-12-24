@@ -4,7 +4,6 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { PokemonCard } from '../components/PokemonCard';
 import { usePokemonPaginated } from '../hooks/usePokemonPaginated';
 import { styles } from '../theme/appTheme';
-//import Icon from 'react-native-vector-icons/Ionicons';
 
 export const HomeScreen = () => {
   const {top}= useSafeAreaInsets();
